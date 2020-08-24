@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<title>Manufacturing Date</title>
+<style>
+.row {
+	padding: 10px
+}
+
+.container {
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px
+}
+label{
+padding-right:20px
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<form action="date">
+			<h2>Enter the Range between Records to be Displayed</h2>
+			<div class="row">
+				<label> Lower Manufacturing Date</label> <input type="date" name="lowerMfgDate">
+			</div>
+			<div class="row">
+				<label> Upper Manufacturing Date </label> <input type="date" name="upperMfgDate">
+			</div>
+			<div class="row">
+				<input type="submit" value="Submit" class="btn btn-success">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

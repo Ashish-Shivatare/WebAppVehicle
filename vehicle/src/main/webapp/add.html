@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<style>
+.row {
+	padding: 10px
+}
+
+.container {
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px
+}
+
+.form-check-label {
+	padding: 10px;
+}
+
+row-vehicle {
+	padding: 10px;
+}
+
+label {
+	padding-right: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<form action="vehicle">
+			<h2>Fill out the form</h2>
+			<div class="row">
+				<div class="row row-vehicle">
+					<label>Vehicle Types</label>
+				</div>
+				<div class="row">
+					<div class="form-check">
+						<label class="form-check-label"> <input type="radio"
+							class="form-check-input" name="vType" value="LWPC">Light Weight
+							Passenger Carrier
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"> <input type="radio"
+							class="form-check-input" name="vType" value="HWPC">Heavy Weight
+							Passenger Carrier
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"> <input type="radio"
+							class="form-check-input" name="vType" value="LWGC">Light Weight
+							goods Carrier
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"> <input type="radio"
+							class="form-check-input" name="vType" value="HWGC">Heavy Weight
+							goods Carrier
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<label> Vehicle Name </label> <input type="text" name="name">
+			</div>
+			<div class="row">
+				<label> Vehicle Model </label> <input type="text" name="model">
+			</div>
+			<div class="row">
+				<label>Vehicle Manufacturing Date </label> <input type="text"
+					name="date">
+			</div>
+			<div class="row">
+				<label> Vehicle Company </label> <input type="text" name="company">
+			</div>
+			<div class="row">
+				<label> Vehicle Wheeler Category</label> <input type="text"
+					name="category">
+			</div>
+			<div class="row">
+				<label> Vehicle Torque </label> <input type="text" name="torque">
+			</div>
+			<div class="row">
+				<label>Vehicle Horse Power </label><input type="text" name="hp">
+			</div>
+			<div class="row">
+				<label> Vehicle Max speed </label><input type="text" name="maxSpeed">
+			</div>
+			<div class="row">
+				<label> Vehicle Acceleration </label> <input type="text" name="acc">
+			</div>
+			<div class="row">
+				<label> Vehicle Run </label> <input type="text" name="run">
+			</div>
+			<div class="row">
+				<input type="submit" value="Submit" class="btn btn-success">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
